@@ -1,6 +1,7 @@
 axis         = require 'axis'
 rupture      = require 'rupture'
 autoprefixer = require 'autoprefixer-stylus'
+contentful = require 'roots-contentful'
 js_pipeline  = require 'js-pipeline'
 css_pipeline = require 'css-pipeline'
 
