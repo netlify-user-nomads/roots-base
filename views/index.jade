@@ -2,5 +2,11 @@ extends layout
 
 block content
   h3 Welcome to roots!.
+  ul
+  - for post in contentful.post
+    li
+      h2= post.title
+        p= markdown(post.body)
   :markdown
     This is a tesing message1
+
