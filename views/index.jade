@@ -8,5 +8,5 @@ block content
    - for p in contentful.blog_posts
     li
       h1= p.title
+      img(src!= asset(p.image, {w: 100%, h: 100%}))
       p= p.body
-      img(src!= asset(p.image, {w: 100, h: 100}))
