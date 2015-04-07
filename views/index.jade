@@ -1,11 +1,11 @@
 extends layout
 
 block content
-	h1 Welcome MESSAGE
-		:markdown
-			This is a TEST message
-	ul
-	  - for p in contentful.blog_posts
-		li
-		  h1= p.title
-		  p= p.body
+  h3 Welcome to roots!.
+  :markdown
+    This is a tesing message
+  ul
+   - for p in contentful.blog_posts
+    li
+      h1= p.title
+      p= p.body
