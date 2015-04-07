@@ -1,15 +1,9 @@
 extends layout
 
 block content
-  h1 Welcome MESSAGE
-  :markdown
-    This is a TEST message
-  h2 Welcome MESSAGE
-  :markdown
-    This is a TEST message
-  h3 Welcome MESSAGE
-  :markdown
-    This is a TEST message
+	h1 Welcome MESSAGE
+		:markdown
+			This is a TEST message
 	ul
 	  - for p in contentful.blog_posts
 		li
