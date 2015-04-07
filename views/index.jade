@@ -7,6 +7,6 @@ block content
   ul
    - for p in contentful.blog_posts
     li
-      h1= p.title
+      h2= p.title
       img(src!= asset(p.image, {w: 800, h: 600}))
       p= p.body
